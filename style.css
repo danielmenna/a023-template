@@ -2,3 +2,44 @@
     margin: 0;
     padding: 0;
 }
+
+header {display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1%;}
+
+section { display: flex;
+flex-direction: row;
+padding: 1;}
+
+.conteudo-principal {display: flex;
+flex-wrap: wrap;
+width:60%;
+justify-content: flex-start;
+gap: 5%;
+padding-top: 1%;
+}
+
+.card {
+    border: 1px solid black;
+    margin-bottom: 2%;
+}
+
+
+.card img {width: 106px;
+height: 106px;
+}
+
+.card p {
+    width: 106px;
+font-size: 80%;
+}
+
+.card:hover {opacity: 20%;}
+
+.menu-esquerdo, .menu-direito {width: 20%;
+padding: 1%;}
+
+footer {position:fixed;
+    bottom: 0;
+    padding: 1%}
